@@ -8,9 +8,12 @@
  */
 int print_last_digit(int r)
 {
+	int	res;
+
 	if (r < 0)
 		r *= -1;
-	printf("%d", r % 10);
-	return (r % 10);
+	res = r % 10;
+	_putchar(res + 48);
+	return (res);
 }
 
