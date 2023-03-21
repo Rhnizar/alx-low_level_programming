@@ -20,7 +20,7 @@ void jack_bauer(void)
 			if (m < 10 && h >= 10)
 				printf("%d:0%d\n", h, m);
 			else if (h < 10 && m < 10)
-                                printf("0%d:0%d\n", h, m);
+				printf("0%d:0%d\n", h, m);
 			else if (h < 10 && m >= 10)
 				printf("0%d:%d\n", h, m);
 			else
