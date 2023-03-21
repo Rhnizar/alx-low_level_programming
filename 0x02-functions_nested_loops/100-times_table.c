@@ -5,10 +5,15 @@
  * print_times_table - print_times_table
  * @n: variable integer
  * Return: 0 ()
+ * ft_test - function for fixe problem in betty style
+ * @i: v i
+ * @j: v i
+ * @x: v i
+ * @n: v i
  */
 void ft_test(int i, int j, int x, int n)
 {
-	while(j <= n)
+	while (j <= n)
 	{
 		if (j == 0)
 			printf("%d,", 0);
