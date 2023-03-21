@@ -3,7 +3,7 @@
 
 /**
  * _abs - print _abs
- * @n: variable integer
+ * @r: variable integer
  * Return: 0 (SUCCESS)
  */
 int _abs(int r)
