@@ -8,21 +8,26 @@
 
 int main(void)
 {
-	int f1;
+	long int f1;
 	int	i;
-	int	f2;
-	int	res;
+	long int	f2;
+	long int	res;
 
-	res = 0;
-	i   = 0;
+	f1 = 1;
+	f2 = 2;
+	i  = 3;
+	res = f1;
+	printf("%ld, %ld, ", f1, f2);
 	while (i <= 50)
 	{
-		f1 = i;
-		f2 = i + 1;
-		res = f1 + f2;
+		res = f2 + f1;
+		printf("%ld, ", res);
+		f1 = f2;
+		f2 = res;
+		// exit(1);
 		i++;
 	}
-	printf("%d", res);
+	printf("%ld", res);
 	return (0);
 }
 
