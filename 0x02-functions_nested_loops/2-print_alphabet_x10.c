@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
 
 /*
- * main - print _putchar
+ * print_alphabet_x10 - print _putchar
  *
  * Return: 0 (SUCCESS)
  */
@@ -21,8 +22,3 @@ void print_alphabet_x10(void)
 	}
 }
 
-/*int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}*/

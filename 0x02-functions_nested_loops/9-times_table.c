@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
 
-/*
+/**
  * main - print _putchar
  *
  * Return: 0 (SUCCESS)
@@ -47,8 +48,3 @@ void times_table(void)
 	}
 }
 
-/*int main(void)
-{
-	times_table();
-	return (0);
-}*/

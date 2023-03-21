@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
 
-/*
- * main - print _putchar
+/**
+ * jack_bauer - jack_bauer
  *
  * Return: 0 (SUCCESS)
  */
@@ -30,8 +31,3 @@ void jack_bauer(void)
 	}
 }
 
-/*int main(void)
-{
-	jack_bauer();
-	return (0);
-}*/

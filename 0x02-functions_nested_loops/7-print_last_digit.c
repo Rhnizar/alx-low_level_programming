@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
 
-/*
- * main - print _putchar
+/**
+ * print_last_digit - print_last_digit
  *
  * Return: 0 (SUCCESS)
  */
@@ -13,14 +14,3 @@ int print_last_digit(int r)
 	return (r % 10);
 }
 
-/*int main(void)
-{
-	 int r;
-
-    print_last_digit(98);
-    print_last_digit(0);
-    r = print_last_digit(-1024);
-    putchar('0' + r);
-    putchar('\n');
-	return (0);
-}*/
