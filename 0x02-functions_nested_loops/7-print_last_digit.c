@@ -3,7 +3,7 @@
 
 /**
  * print_last_digit - print_last_digit
- *
+ * @r: variable integer
  * Return: 0 (SUCCESS)
  */
 int print_last_digit(int r)

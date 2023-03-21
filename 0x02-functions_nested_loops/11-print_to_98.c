@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - print_to_98
- *
+ * @n: variable integer
  * Return: 0 (SUCCESS)
  */
 void print_to_98(int n)

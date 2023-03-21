@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - print _putchar
- *
+ * _abs - print _abs
+ * @n: variable integer
  * Return: 0 (SUCCESS)
  */
 int _abs(int r)

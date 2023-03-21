@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - print _putchar
+ * times_table - print times_table
  *
  * Return: 0 (SUCCESS)
  */

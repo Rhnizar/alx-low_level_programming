@@ -3,8 +3,9 @@
 
 /**
  * add - print _putchar
- *
- * Return: 0 (SUCCESS)
+ * @a: variable integer
+ * @b: variable integer
+ * Return: sum ther a and b
  */
 int add(int a, int b)
 {
