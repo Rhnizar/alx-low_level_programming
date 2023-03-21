@@ -22,9 +22,8 @@ void print_times_table(int n)
 			j = 0;
 			x = 0;
 
-			while(j <= n)
+			while (j <= n)
 			{
-
 				if (j == 0)
 					printf("%d,", 0);
 				else
@@ -59,3 +58,4 @@ void print_times_table(int n)
 		}
 	}
 }
+
