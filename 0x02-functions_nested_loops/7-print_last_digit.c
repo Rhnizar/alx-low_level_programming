@@ -13,8 +13,8 @@ int print_last_digit(int r)
 
 	if (r == INT_MIN)
 	{
-		_putchar('7');
-		return (7);
+		_putchar('8');
+		return (8);
 	}
 	if (r < 0)
 		r *= -1;
