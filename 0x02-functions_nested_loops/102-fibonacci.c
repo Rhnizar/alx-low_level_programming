@@ -21,7 +21,10 @@ int main(void)
 	while (i <= 50)
 	{
 		res = f2 + f1;
-		printf("%ld, ", res);
+		if (i < 50)
+			printf("%ld, ", res);
+		else
+			printf("%ld", res);
 		f1 = f2;
 		f2 = res;
 		i++;
