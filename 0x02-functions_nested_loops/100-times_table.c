@@ -6,6 +6,41 @@
  * @n: variable integer
  * Return: 0 ()
  */
+void ft_test(int i, int j, int x, int n)
+{
+	while(j <= n)
+	{
+		if (j == 0)
+			printf("%d,", 0);
+		else
+		{
+			x += i;
+			if (x < 10)
+			{
+				if (j < n)
+					printf("   %d,", x);
+				else
+					printf("   %d", x);
+			}
+			else if (x < 100)
+			{
+				if (j < n)
+					printf("  %d,", x);
+				else
+					printf("  %d", x);
+			}
+			else
+			{
+				if (j < n)
+					printf(" %d,", x);
+				else
+					printf(" %d", x);
+			}
+		}
+		j++;
+	}
+}
+
 void print_times_table(int n)
 {
 	int	i;
@@ -21,38 +56,7 @@ void print_times_table(int n)
 		{
 			j = 0;
 			x = 0;
-
-			while (j <= n)
-			{
-				if (j == 0)
-					printf("%d,", 0);
-				else
-				{
-					x += i;
-					if (x < 10)
-					{
-						if (j < n)
-							printf("   %d,", x);
-						else
-							printf("   %d", x);
-					}
-					else if (x < 100)
-					{
-						if (j < n)
-							printf("  %d,", x);
-						else
-							printf("  %d", x);
-					}
-					else
-					{
-						if (j < n)
-							printf(" %d,", x);
-						else
-							printf(" %d", x);
-					}
-				}
-				j++;
-			}
+			ft_test(i, j, x, n);
 			printf("\n");
 			i++;
 		}
