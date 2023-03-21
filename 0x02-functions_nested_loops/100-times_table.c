@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print_times_table - print_times_table
  * ft_test - function for fixe problem in betty style
+ * print_times_table - print_times_table
  * @n: variable integer
  * Return: 0 ()
  * @i: v i
