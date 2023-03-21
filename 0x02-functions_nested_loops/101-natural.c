@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - natural
  *
  * Return: 0 ()
@@ -19,7 +19,7 @@ int main(void)
 			res += i;
 		i--;
 	}
-	printf("%d", res);
+	printf("%d\n", res);
 	return (0);
 }
 
