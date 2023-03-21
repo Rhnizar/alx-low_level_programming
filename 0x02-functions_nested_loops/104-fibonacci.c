@@ -21,7 +21,7 @@ int main(void)
 	while (i <= 98)
 	{
 		res = f2 + f1;
-		if (i < 50)
+		if (i < 98)
 			printf("%ld, ", res);
 		else
 			printf("%ld", res);
