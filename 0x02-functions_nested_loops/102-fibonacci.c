@@ -26,7 +26,7 @@ int main(void)
 		f2 = res;
 		i++;
 	}
-	printf("%ld", res);
+	printf("\n");
 	return (0);
 }
 
