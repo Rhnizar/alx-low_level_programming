@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <limits.h>
 
 /**
  * print_last_digit - print_last_digit
@@ -10,19 +11,14 @@ int print_last_digit(int r)
 {
 	int	res;
 
+	if (r == INT_MIN)
+	{
+		_putchar('7');
+		return (7);
+	}
 	if (r < 0)
-	{
-		_putchar('-');
 		r *= -1;
-		res = r % 10;
-		_putchar(res + 48);
-		return (res * -1);
-	}
-	else
-	{
-		res = r % 10;
-		_putchar(res + 48);
-	}
+	res = r % 10;
+	_putchar(res + 48);
 	return (res);
 }
-
