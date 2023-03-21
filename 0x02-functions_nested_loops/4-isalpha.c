@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - print _isalpha
- *
+ * 
  * Return: 0 (SUCCESS)
  */
 int _isalpha(int c)

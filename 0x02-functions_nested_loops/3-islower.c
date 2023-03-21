@@ -3,7 +3,7 @@
 
 /**
  * _islower -  _islower
- * parameter -  integer
+ * c:  integer value
  * Return: 0 (SUCCESS)
  */
 int _islower(int c)
