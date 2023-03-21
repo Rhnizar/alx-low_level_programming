@@ -14,9 +14,15 @@ int print_last_digit(int r)
 	{
 		_putchar('-');
 		r *= -1;
+		res = r % 10;
+		_putchar(res + 48);
+		return (res * -1);
 	}
-	res = r % 10;
-	_putchar(res + 48);
+	else
+	{
+		res = r % 10;
+		_putchar(res + 48);
+	}
 	return (res);
 }
 
