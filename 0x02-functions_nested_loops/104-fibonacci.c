@@ -8,23 +8,23 @@
 
 int main(void)
 {
-	long int f1;
+	unsigned long int	f1;
 	int	i;
-	long int	f2;
-	long int	res;
+	unsigned long int	f2;
+	unsigned long int	res;
 
 	f1 = 1;
 	f2 = 2;
 	i  = 3;
 	res = f1;
-	printf("%ld, %ld, ", f1, f2);
+	printf("%lu, %lu, ", f1, f2);
 	while (i <= 98)
 	{
 		res = f2 + f1;
 		if (i < 98)
-			printf("%ld, ", res);
+			printf("%lu, ", res);
 		else
-			printf("%ld", res);
+			printf("%lu", res);
 		f1 = f2;
 		f2 = res;
 		i++;
