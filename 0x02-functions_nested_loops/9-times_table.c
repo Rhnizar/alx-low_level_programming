@@ -22,23 +22,23 @@ void times_table(void)
 		while (j < 10)
 		{
 			if (j == 0)
-				printf("0,  ");
+				printf("0,");
 			else
 			{
 				x += i;
 				if (x < 10)
 				{
 					if (j != 9)
-						printf("%d,  ",  x);
+						printf("  %d,",  x);
 					else
-						printf("%d",  x);
+						printf("  %d",  x);
 				}
 				else
 				{
 					if (j != 9)
-						printf("%d, ",  x);
+						printf(" %d,",  x);
 					else
-						printf("%d",  x);
+						printf(" %d",  x);
 				}
 			}
 			j++;
