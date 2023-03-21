@@ -44,8 +44,8 @@ void ft_test(int i, int j, int x, int n)
 }
 
 /**
- * ft_test - function for fixe problem in betty style
- * @i: v i
+ * print_times_table - function for fixe problem in betty style
+ * @n: v i
  */
 
 void print_times_table(int n)
