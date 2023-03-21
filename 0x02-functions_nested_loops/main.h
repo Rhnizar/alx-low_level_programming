@@ -2,10 +2,11 @@
 #define MAIN_H
 
 #include <stdio.h>
+#include <unistd.h>
 
 void	_putchar(char c)
 {
-	putchar(c);
+	write(1, &c, 1);
 }
 
 void    _putchar(char c);
