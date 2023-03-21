@@ -24,7 +24,6 @@ int main(void)
 		printf("%ld, ", res);
 		f1 = f2;
 		f2 = res;
-		// exit(1);
 		i++;
 	}
 	printf("%ld", res);
