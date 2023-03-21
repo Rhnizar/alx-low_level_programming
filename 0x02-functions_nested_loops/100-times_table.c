@@ -3,9 +3,9 @@
 
 /**
  * print_times_table - print_times_table
+ * ft_test - function for fixe problem in betty style
  * @n: variable integer
  * Return: 0 ()
- * ft_test - function for fixe problem in betty style
  * @i: v i
  * @j: v i
  * @x: v i
