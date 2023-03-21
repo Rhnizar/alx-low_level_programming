@@ -2,10 +2,12 @@
 #include "main.h"
 
 /**
- * ft_test - function for fixe problem in betty style
  * print_times_table - print_times_table
  * @n: variable integer
  * Return: 0 ()
+ */
+/**
+ * ft_test - function for fixe problem in betty style
  * @i: v i
  * @j: v i
  * @x: v i
