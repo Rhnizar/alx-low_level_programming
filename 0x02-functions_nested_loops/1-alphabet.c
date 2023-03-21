@@ -5,10 +5,11 @@
  *
  * Return: 0 (SUCCESS)
  */
+
 void print_alphabet(void)
 {
-	int	a;
-	a = 97;
+	char	a = 'a';
+
 	while (a <= 'z')
 		putchar(a++);
 	putchar('\n');
