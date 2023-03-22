@@ -3,16 +3,12 @@
 #include <time.h>
 
 /**
- * main- positive or negative number
- *
+ * positive_or_negative- positive or negative number
+ * @n: vriable integer 
  * Return: 0
  */
-int main(void)
+int positive_or_negative(int n)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n > 0)
