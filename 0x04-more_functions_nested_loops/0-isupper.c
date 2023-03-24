@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _isupper - is upper
- * @c: v i
- * Retrun: 0 || 1
+ * _isupper - prints the alphabet in lowercase
+ * @c: the variable
+ * Return: 1 || 0
  */
 
 int _isupper(int c)
