@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isdigit - is digit
+ * _isdigit- is digit
  * @c: varibale integer
  * Retrun: 0 || 1
  */
