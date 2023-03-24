@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _isdigit - is digit
+ * _isdigit - print the alphabet 
  * @c: v i
  * Retrun: 0 (SUCCESS)
  */
