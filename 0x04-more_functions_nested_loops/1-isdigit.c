@@ -4,7 +4,7 @@
 /**
  * _isdigit - is digit
  * @c: v i
- * Retrun: 0 (SUCCESS)
+ * Retrun: 0 || 1
  */
 
 int _isdigit(int c)
