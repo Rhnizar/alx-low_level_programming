@@ -3,7 +3,7 @@
 
 /**
  * _isdigit - is digit
- * @c: v i
+ * @c: varibale integer
  * Retrun: 0 || 1
  */
 
