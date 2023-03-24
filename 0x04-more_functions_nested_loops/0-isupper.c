@@ -5,7 +5,7 @@
  * @c: v i
  * Retrun: 0 || 1
  */
-int	_isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
