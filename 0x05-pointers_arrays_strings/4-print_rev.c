@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ft_strlen - lenght string 
+ * ft_strlen - lenght string
  * @str: string
  * Return: lenght string
  */
@@ -22,7 +22,7 @@ void print_rev(char *s)
 {
 	int	len;
 
-	len = ft_strlen(s);
+	len = ft_strlen(s) - 1;
 	while (len != -1)
 		putchar(s[len--]);
 	putchar('\n');
