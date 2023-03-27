@@ -21,8 +21,22 @@ int	ft_strlen(char *str)
 void rev_string(char *s)
 {
 	int	len;
+	char	*str;
+	int	i;
 
-	len = ft_strlen(s) - 1;
+	i = 0;
+	len = strlen(s) - 1;
+	str = malloc(sizeof(char) * len +1);
+	if (!str)
+		return ;
 	while (len != -1)
-		putchar(s[len--]);
+		str[i++] = s[len--];
+	str[i] = '\0';
+	i = 0;
+	while (str[i])
+	{
+		s[i] = str[i];
+		i++;
+	}
+
 }
