@@ -25,7 +25,7 @@ void rev_string(char *s)
 	int	i;
 
 	i = 0;
-	len = strlen(s) - 1;
+	len = ft_strlen(s) - 1;
 	str = malloc(sizeof(char) * len +1);
 	if (!str)
 		return ;
