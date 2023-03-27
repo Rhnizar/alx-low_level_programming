@@ -25,4 +25,5 @@ void print_rev(char *s)
 	len = ft_strlen(s);
 	while (len != -1)
 		putchar(s[len--]);
+	putchar('\n');
 }
