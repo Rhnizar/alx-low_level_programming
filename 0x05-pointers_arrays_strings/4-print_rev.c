@@ -2,12 +2,13 @@
 
 /**
  * print_rev - print string in reverse
- * @str: string
+ * @s: string
  */
 void print_rev(char *s)
 {
 	int	len;
+
 	len = _strlen(s);
-	while (s[len])
+	while (len)
 		putchar(s[len--]);
 }
