@@ -29,7 +29,7 @@ void rev_string(char *s)
 	len = ft_strlen(s) - 1;
 	str = malloc(sizeof(char) * len +1);
 	if (!str)
-		return ;
+		return;
 	while (len != -1)
 		str[i++] = s[len--];
 	str[i] = '\0';
