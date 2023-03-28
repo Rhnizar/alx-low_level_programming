@@ -23,7 +23,8 @@ int _atoi(char *s)
 		while (s[i] >= '0' && s[i] <= '9')
 		{
 			is = 1;
-			res *= 10 + s[i] - 48;
+			res *= 10;
+			res += s[i] - 48;
 			i++;
 		}
 		if (is == 1)
