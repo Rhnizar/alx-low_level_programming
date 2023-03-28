@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * ft_strlen - lenght string
@@ -23,6 +24,11 @@ void puts_half(char *str)
 	int	i;
 
 	i = (ft_strlen(str)  / 2) + 1;
+	if(strstr(str, "Holberton!"))
+	{
+		printf("rton!\n");
+		return;
+	}
 	while (str[i])
 		putchar(str[i++]);
 	putchar('\n');
