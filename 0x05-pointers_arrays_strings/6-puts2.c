@@ -25,7 +25,7 @@ void puts2(char *str)
 
 	i = 0;
 	len = ft_strlen(str) - 1;
-	while (len != -1)
+	while ((len / 2) != -1)
 	{
 		putchar(str[i]);
 		i += 2;
