@@ -19,6 +19,7 @@ int	ft_strlen(char *str)
  * _strcpy - copy string
  * @dest: pointer dest
  * @src: pointer src
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -36,4 +37,5 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 	dest[i] = '\0';
+	return (dest);
 }
