@@ -29,7 +29,7 @@ char *_strcpy(char *dest, char *src)
 	i = 0;
 	dest = malloc(sizeof(char) * len + 1);
 	if (!dest)
-		return (NUll);
+		return (NULL);
 	while (src[i])
 	{
 		dest[i] = src[i];
