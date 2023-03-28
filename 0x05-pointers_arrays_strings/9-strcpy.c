@@ -23,14 +23,9 @@ int	ft_strlen(char *str)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int len;
 	int i;
 
-	len = ft_strlen(src);
-	i = 0;
-	dest = malloc(sizeof(char) * len + 1);
-	if (!dest)
-		return (NULL);
+	i = 0
 	while (src[i])
 	{
 		dest[i] = src[i];
