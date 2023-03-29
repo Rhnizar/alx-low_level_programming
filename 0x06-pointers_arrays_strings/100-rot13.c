@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13 - -13 or +13
+ * rot13 - rot13
  * @s: string
 */
 
