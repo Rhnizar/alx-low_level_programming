@@ -11,8 +11,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	int	i;
 
 	i = 0;
-	dest = malloc(sizeof(char) * n);
-	while (i <= n)
+	while (i < n)
 	{
 		dest[i] = src[i];
 		i++;
