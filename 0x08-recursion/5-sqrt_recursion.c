@@ -8,10 +8,10 @@
  */
 int     sqrtt(int x, int y)
 {
-        if (x * x == y)
-                return (x);
+	if (x * x == y)
+		return (x);
         else
-                return(sqrtt(x + 1, y));
+                return (sqrtt(x + 1, y));
 }
 /**
  * _sqrt_recursion - sqrt
@@ -21,9 +21,9 @@ int     sqrtt(int x, int y)
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
-                return -1;
+                return (-1);
         else if (n == 0)
-                return 1;
+                return (1);
         else
                 return (sqrtt(1, n));
 }
