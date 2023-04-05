@@ -3,21 +3,20 @@
 /**
  * sqrtt - sqrt
  *@x: number
+ *@y: number
+ *Return: sq
  */
-int     sqrtt(int x)
+int     sqrtt(int x, int y)
 {
-        int i = 0;
-        while (i < x)
-        {
-                if (i * i == x)
-                return (i);
-                i++;
-        }
-        return (0);
+        if (x * x == y)
+                return (x);
+        else
+                return(sqrtt(x + 1, y));
 }
 /**
  * _sqrt_recursion - sqrt
  * @n: number
+ * Return: sqrt number
  */
 int _sqrt_recursion(int n)
 {
