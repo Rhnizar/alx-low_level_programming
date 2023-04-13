@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * malloc_checked - check malloc
- *@b u i
+ * @b u i
+ * Return: pointer to allocate
  */
 void *malloc_checked(unsigned int b)
 {
@@ -10,6 +11,5 @@ void *malloc_checked(unsigned int b)
 	str = malloc(b);
 	if (!str)
 		return (98);
-	else
-		return (str);
+	return (str);
 }
