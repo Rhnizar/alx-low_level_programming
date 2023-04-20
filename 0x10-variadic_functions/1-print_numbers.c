@@ -8,7 +8,7 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int	n1 = n - 1;
+	unsigned int	i;
 	va_list	arg;
 
 	if (!n)
@@ -16,8 +16,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	if (!separator)
 		separator = "";
 	va_start(arg, n);
-	while (n1--)
-		printf("%d%s", va_arg(arg, int), separator);
-	printf("%d\n", va_arg(arg, int));
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", va_arg(arg, int));
+		if (i < n - 1)
+			printf("%s", separator);
+	}
+	printf("\n");
 	va_end(arg);
 }
