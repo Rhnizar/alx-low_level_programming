@@ -1,38 +1,42 @@
 #include "lists.h"
 
 /**
- * _strlen - returns length of str
- * @s: char
- * Return: c
+ *_strlen - gets the size of the string
+ *@str: the string in hand
+ *Return: returns the number of char in string
  */
-int _strlen(const char *s)
-{
-	int c = 0;
 
-	while (s[c] != '\0')
-		c++;
-	return (c);
+unsigned int _strlen(const char *str)
+{
+	unsigned int i = 0;
+
+	while (str[i])
+		i++;
+	return (i);
 }
 
 /**
- * add_node - adds a new node at the beginning of a list_t list
- * @head: head of list
- * @str: string
- * Return: address of the new element, or NULL if it failed
+ *add_node - add a new node at the beginnig of a list
+ *@head: the head of the list
+ *@str: the string to add
+ *Return: the address of the new element
  */
+
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *ad;
-	unsigned int l = 0;
+	list_t *new;
 
-	while (str[l])
-		l++;
-	ad = malloc(sizeof(list_t));
-	if (ad == NULL)
+	new = malloc(sizeof(list_t));
+	if (!new)
 		return (NULL);
-	ad->str = strdup(str);
-	ad->len = l;
-	ad->next = *head;
-	*head = ad;
-	return (*head);
+	new->str = strdup(str);
+	new->len = _strlen(str);
+	if (!*head)
+		*head = new;
+	else
+	{
+		new->next = *head;
+		*head = new;
+	}
+	return (new);
 }
